@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etUserInput"
+        android:layout_width="411dp"
+        android:layout_height="56dp"
+        android:hint="User Input" />
+
+    <TextView
+        android:id="@+id/tvReportResultJavaThread"
+        android:layout_width="411dp"
+        android:layout_height="56dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/tvReportResultsAsyncTask"
+        android:layout_width="411dp"
+        android:layout_height="56dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:id="@+id/tvReportResultsLooper"
+        android:layout_width="411dp"
+        android:layout_height="56dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <Button
+        android:id="@+id/btnStartJavaThread"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Start Java Thread"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <Button
+        android:id="@+id/btnStartAsyncTask"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Start Async Task"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <Button
+        android:id="@+id/btnStartLooper"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:text="Start Looper"
+        android:onClick="onClick"
+        tools:layout_editor_absoluteY="463dp" />
+
+</LinearLayout>
